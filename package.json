@@ -13,6 +13,10 @@
     "Programming Languages",
     "Linters"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomocraft/mcbe-command-checker.git"
+  },
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
