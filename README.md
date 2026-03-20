@@ -7,6 +7,13 @@
 
 MCBE Command Checker is a VS Code extension for validating Minecraft Bedrock Edition commands.
 It checks command syntax while you type, reports diagnostics in the Problems panel, and provides command-aware completion.
+It now supports Minecraft Bedrock Edition 1.26.0.
+
+## Preview
+
+### Real-time Validation
+
+![Real-time validation in the editor and Problems panel](https://github.com/tomocraft/mcbe-command-checker/blob/main/images/demo.png)
 
 ## Installation
 

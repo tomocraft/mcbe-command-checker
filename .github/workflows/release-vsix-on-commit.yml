@@ -33,23 +33,22 @@ jobs:
         run: |
           EXT_NAME=$(node -p "require('./package.json').name")
           EXT_VERSION=$(node -p "require('./package.json').version")
-          SHORT_SHA="${GITHUB_SHA::7}"
 
-          VSIX_FILE="${EXT_NAME}-${EXT_VERSION}+${GITHUB_RUN_NUMBER}.${SHORT_SHA}.vsix"
-          RELEASE_TAG="auto-v${EXT_VERSION}-${GITHUB_RUN_NUMBER}-${SHORT_SHA}"
+          VSIX_FILE="${EXT_NAME}-${EXT_VERSION}.vsix"
+          RELEASE_TAG="v${EXT_VERSION}-build.${GITHUB_RUN_NUMBER}"
 
           npx @vscode/vsce package --out "$VSIX_FILE"
 
           echo "vsix_file=$VSIX_FILE" >> "$GITHUB_OUTPUT"
           echo "release_tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
           echo "ext_version=$EXT_VERSION" >> "$GITHUB_OUTPUT"
-          echo "short_sha=$SHORT_SHA" >> "$GITHUB_OUTPUT"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.package.outputs.release_tag }}
-          name: Auto VSIX v${{ steps.package.outputs.ext_version }} (${{ steps.package.outputs.short_sha }})
-          prerelease: true
+          name: v${{ steps.package.outputs.ext_version }} build ${{ github.run_number }}
+          prerelease: false
+          make_latest: true
           generate_release_notes: true
           files: ${{ steps.package.outputs.vsix_file }}
