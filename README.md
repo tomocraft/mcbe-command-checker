@@ -2,7 +2,7 @@
 
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/Tomocraft.mcbe-command-checker?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Tomocraft.mcbe-command-checker)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/Tomocraft.mcbe-command-checker?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Tomocraft.mcbe-command-checker)
-[![Join our Discord](https://img.shields.io/discord/1325048336257118208?style=for-the-badge&logo=discord&label=Discord)](https://discord.gg/3Fdp6vBxtb)
+[![Join my Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3Fdp6vBxtb)
 [![License](https://img.shields.io/github/license/tomocraft/mcbe-command-checker?style=for-the-badge)](https://github.com/tomocraft/mcbe-command-checker/blob/main/LICENSE)
 
 MCBE Command Checker is a VS Code extension for validating Minecraft Bedrock Edition commands.
