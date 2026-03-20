@@ -78,6 +78,7 @@ Install from Marketplace once published:
 - Command ID: `mcbeCommandChecker.validateSelectionOrFile`
 - Display name: `Validate Selected Bedrock Commands`
 - Purpose: Validate selected text or the entire active file
+You can use this command from context menu.
 
 ## Scope and Notes
 
