@@ -13,7 +13,7 @@ It now supports Minecraft Bedrock Edition 1.26.0.
 
 ### Real-time Validation
 
-![Real-time validation in the editor and Problems panel](https://github.com/tomocraft/mcbe-command-checker/blob/main/images/demo.png)
+![Real-time validation in the editor and Problems panel](https://raw.githubusercontent.com/tomocraft/mcbe-command-checker/main/images/demo.png)
 
 ## Installation
 
