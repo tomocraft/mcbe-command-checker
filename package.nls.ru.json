@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "Проверяет синтаксис команд Minecraft Bedrock и предоставляет контекстное автодополнение для настраиваемых целевых файлов.",
+  "command.category": "MCBE",
+  "command.validate.title": "Проверить выбранные команды Bedrock",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "Показывать компактные подсказки синтаксиса под каждой строкой.",
+  "config.showContextMenu": "Включить или скрыть \"Проверить выбранные команды Bedrock\" в контекстном меню.",
+  "config.includeFilePatterns": "Glob-шаблоны файлов для проверки, подсказок и автодополнения (например: **/*.mcfunction, **/*.txt).",
+  "config.edition": "Набор команд для проверки и автодополнения (normal или education)."
+}

@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "驗證 Minecraft Bedrock 指令語法，並為可設定目標檔案提供指令感知補全。",
+  "command.category": "MCBE",
+  "command.validate.title": "驗證所選 Bedrock 指令",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "在每行下方顯示精簡的指令語法提示。",
+  "config.showContextMenu": "切換是否在內容選單中顯示「驗證所選 Bedrock 指令」。",
+  "config.includeFilePatterns": "用於驗證、提示與補全的目標檔案 glob 模式（例如：**/*.mcfunction, **/*.txt）。",
+  "config.edition": "用於驗證與補全的指令資料集版本（normal 或 education）。"
+}

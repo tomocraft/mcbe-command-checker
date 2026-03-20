@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "Validate Minecraft Bedrock command syntax and provide command-aware completion for configurable target files.",
+  "command.category": "MCBE",
+  "command.validate.title": "Validate Selected Bedrock Commands",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "Show compact command syntax hints below each line.",
+  "config.showContextMenu": "Toggle whether to show \"Validate Selected Bedrock Commands\" in context menus.",
+  "config.includeFilePatterns": "Glob patterns for files to include in validation, hints, and completion (for example: **/*.mcfunction, **/*.txt).",
+  "config.edition": "Command dataset edition used for validation and completion (normal or education)."
+}

@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "Minecraft Bedrock 명령어 구문을 검사하고, 설정 가능한 대상 파일에 대해 명령어 기반 자동완성을 제공합니다.",
+  "command.category": "MCBE",
+  "command.validate.title": "선택한 Bedrock 명령어 검사",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "각 줄 아래에 간결한 명령어 구문 힌트를 표시합니다.",
+  "config.showContextMenu": "컨텍스트 메뉴에서 \"선택한 Bedrock 명령어 검사\" 표시 여부를 전환합니다.",
+  "config.includeFilePatterns": "검사, 힌트, 자동완성 대상 파일의 glob 패턴입니다(예: **/*.mcfunction, **/*.txt).",
+  "config.edition": "검사와 자동완성에 사용할 명령어 데이터셋 에디션(normal 또는 education)."
+}

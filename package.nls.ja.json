@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "マイクラ統合版コマンドの構文検証と構文ベース補完を提供します（対象ファイルは設定で指定可能）。",
+  "command.category": "MCBE",
+  "command.validate.title": "選択範囲の統合版コマンドを確認",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "各行の下に小さくコマンド構文ヒントを表示します。",
+  "config.showContextMenu": "コンテキストメニューに「選択範囲の統合版コマンドを確認」を表示するかどうかを切り替えます。",
+  "config.includeFilePatterns": "検証・ヒント表示・補完の対象にするファイルの glob パターン一覧（例: **/*.mcfunction, **/*.txt）。",
+  "config.edition": "検証と補完に使うコマンドデータセットのエディション（normal / education）。"
+}

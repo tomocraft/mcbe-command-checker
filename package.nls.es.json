@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "Valida la sintaxis de comandos de Minecraft Bedrock y ofrece autocompletado segun el comando para archivos configurables.",
+  "command.category": "MCBE",
+  "command.validate.title": "Validar comandos Bedrock seleccionados",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "Mostrar sugerencias compactas de sintaxis debajo de cada linea.",
+  "config.showContextMenu": "Alternar si se muestra \"Validar comandos Bedrock seleccionados\" en los menus contextuales.",
+  "config.includeFilePatterns": "Patrones glob de archivos para validacion, sugerencias y autocompletado (por ejemplo: **/*.mcfunction, **/*.txt).",
+  "config.edition": "Conjunto de comandos usado para validacion y autocompletado (normal o education)."
+}

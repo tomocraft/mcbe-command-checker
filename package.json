@@ -1,0 +1,116 @@
+{
+  "name": "mcbe-command-checker",
+  "displayName": "%ext.displayName%",
+  "description": "%ext.description%",
+  "icon": "images/icon.png",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "Tomocraft",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mcbeCommandChecker.validateSelectionOrFile",
+        "title": "%command.validate.title%",
+        "category": "%command.category%"
+      }
+    ],
+    "configurationDefaults": {
+      "[mcfunction]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.showWords": false
+      }
+    },
+    "configuration": {
+      "title": "%config.title%",
+      "properties": {
+        "mcbeCommandChecker.showSyntaxHints": {
+          "type": "boolean",
+          "default": false,
+          "description": "%config.showSyntaxHints%"
+        },
+        "mcbeCommandChecker.showContextMenu": {
+          "type": "boolean",
+          "default": true,
+          "description": "%config.showContextMenu%"
+        },
+        "mcbeCommandChecker.includeFilePatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "**/*.mcfunction"
+          ],
+          "description": "%config.includeFilePatterns%"
+        },
+        "mcbeCommandChecker.edition": {
+          "type": "string",
+          "enum": [
+            "normal",
+            "education"
+          ],
+          "default": "education",
+          "description": "%config.edition%"
+        }
+      }
+    },
+    "languages": [
+      {
+        "id": "mcfunction",
+        "aliases": [
+          "MCFunction",
+          "mcfunction"
+        ],
+        "extensions": [
+          ".mcfunction"
+        ],
+        "icon": {
+          "light": "./images/mcfunction.svg",
+          "dark": "./images/mcfunction.svg"
+        },
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mcfunction",
+        "scopeName": "source.mcfunction",
+        "path": "./syntaxes/mcfunction.tmLanguage.json"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "mcbeCommandChecker.validateSelectionOrFile",
+          "when": "editorTextFocus && config.mcbeCommandChecker.showContextMenu",
+          "group": "checkcmd@50"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "mcbeCommandChecker.validateSelectionOrFile",
+          "when": "resourceScheme == file && config.mcbeCommandChecker.showContextMenu",
+          "group": "checkcmd@50"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.4"
+  }
+}

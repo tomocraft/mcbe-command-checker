@@ -1,0 +1,11 @@
+{
+  "ext.displayName": "MCBE Command Checker",
+  "ext.description": "Convalida la sintassi dei comandi di Minecraft Bedrock e fornisce completamento contestuale per file di destinazione configurabili.",
+  "command.category": "MCBE",
+  "command.validate.title": "Convalida i comandi Bedrock selezionati",
+  "config.title": "MCBE Command Checker",
+  "config.showSyntaxHints": "Mostra suggerimenti di sintassi compatti sotto ogni riga.",
+  "config.showContextMenu": "Attiva/disattiva la voce \"Convalida i comandi Bedrock selezionati\" nei menu contestuali.",
+  "config.includeFilePatterns": "Pattern glob dei file da includere in convalida, suggerimenti e completamento (esempio: **/*.mcfunction, **/*.txt).",
+  "config.edition": "Set di comandi usato per convalida e completamento (normal o education)."
+}
