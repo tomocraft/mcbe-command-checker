@@ -3,7 +3,7 @@
   "displayName": "%ext.displayName%",
   "description": "%ext.description%",
   "icon": "images/icon.png",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "publisher": "Tomocraft",
   "engines": {
@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/tomocraft/mcbe-command-checker.git"
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
