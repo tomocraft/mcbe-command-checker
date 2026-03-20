@@ -18,7 +18,7 @@ fill="black"
 >MC</text>
 </mask>
 </defs>
-  <g clip-path="url(#rounded)" mask="url(#mc-cutout)" transform="translate(8,8) scale(1.25) translate(-8,-8)">
+  <g clip-path="url(#rounded)" mask="url(#mc-cutout)" transform="translate(8,8) scale(1.0) translate(-8,-8)">
 <rect x="2" y="2" width="1" height="1" fill="rgba(108,183,74,1)" />
 <rect x="3" y="2" width="1" height="1" fill="rgba(108,183,74,1)" />
 <rect x="4" y="2" width="1" height="1" fill="rgba(108,179,74,1)" />
