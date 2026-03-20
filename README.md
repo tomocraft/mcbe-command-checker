@@ -1,6 +1,7 @@
 # Minecraft Bedrock Command Checker
 
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/Tomocraft.mcbe-command-checker?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Tomocraft.mcbe-command-checker)
+![Open VSX Downloads](https://img.shields.io/badge/dynamic/json?url=https://open-vsx.org/api/Tomocraft/mcbe-command-checker&query=$.downloadCount&label=Open%20VSX%20Downloads)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/Tomocraft.mcbe-command-checker?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Tomocraft.mcbe-command-checker)
 [![Join my Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3Fdp6vBxtb)
 [![License](https://img.shields.io/github/license/tomocraft/mcbe-command-checker?style=for-the-badge)](https://github.com/tomocraft/mcbe-command-checker/blob/main/LICENSE)

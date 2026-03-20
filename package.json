@@ -3,7 +3,7 @@
   "displayName": "%ext.displayName%",
   "description": "%ext.description%",
   "icon": "images/icon.png",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "publisher": "Tomocraft",
   "engines": {
