@@ -1,6 +1,6 @@
 {
   "ext.displayName": "MCBE Command Checker",
-  "ext.description": "Validate Minecraft Bedrock command syntax and provide command-aware completion for configurable target files.",
+  "ext.description": "Validate Minecraft Bedrock command syntax and provide command-aware completion for configurable target files such as .mcfunction files.",
   "command.category": "MCBE",
   "command.validate.title": "Validate Selected Bedrock Commands",
   "config.title": "MCBE Command Checker",

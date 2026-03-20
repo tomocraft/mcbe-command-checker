@@ -1,6 +1,6 @@
 {
   "ext.displayName": "MCBE Command Checker",
-  "ext.description": "マイクラ統合版コマンドの構文検証と構文ベース補完を提供します（対象ファイルは設定で指定可能）。",
+  "ext.description": "マイクラ統合版コマンド(mcfunctionファイルなど)の構文検証と構文ベース補完を提供します（対象ファイルは設定で指定可能）。",
   "command.category": "MCBE",
   "command.validate.title": "選択範囲の統合版コマンドを確認",
   "config.title": "MCBE Command Checker",
